@@ -3,6 +3,8 @@ Proctorio is a privacy nightmare and it is ineffective. Personally, I am strongl
 
 The source code of this project will be released Sept 12, 2020 to allow for companies to mitigate any of the issues presented. This may be delayed if requested by any company or educational institution.
 
+If there are any questions or concerns, feel free to make an issue in this repo
+
 # Table of Contents
   * [Why](#why)
     * [Better Solutions](#better-solutions)
@@ -39,7 +41,7 @@ The extention probably uses https://developer.chrome.com/native-client/overview 
 
 Implementing https://github.com/microsoft/detours#microsoft-research-detours-package would allow us to modify any call the chrome makes to the system. Any checks that the extension makes to ensure that it is not running in a vm can be modified, any checks to look for other app running can also be modified.
 
-This project relies on this 2nd trust.
+This project relies on this 2nd issue.
 
 ## 3 Chromium is open source
 Browser extensions can be run in a custom version of chromium which would implement return false information to the plugin (disguising itself as the chrome browser) and would be a similar solution to the injection based issue.
