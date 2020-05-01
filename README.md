@@ -58,6 +58,9 @@ We inject into chrome any hook any calls for the functions we want to implement.
 ## Camera + Window
 I am not going to discuss or open source any of this technology. I have a theory of how this can be bypassed and how a bypass can be detected.
 
+## Mouse
+A virtual mouse that follows and learns your mouse movements based off what is on the screen. When you switch out of the VM, the AI algorithm will continue to "move" your mouse in a realistic way.
+
 ## Processes
 We hide the injector and any firefox browser processes from the chrome browser while injected. We also implement a macro for copy and pasting which will play back typing clips (from earlier) and 
 
