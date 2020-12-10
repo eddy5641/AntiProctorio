@@ -1,7 +1,9 @@
 # AntiProctorio
 Proctorio is a privacy nightmare and it is ineffective. Personally, I am strongly against snake oil cheat prevention software and from my research, proctorio cannot effectively proctor any exam securely.
 
-The source code of this project will be released Sept 12, 2020 to allow for companies to mitigate any of the issues presented. This may be delayed if requested by any company or educational institution.
+Update: I am not releasing the SRC because it will make cheating too easy. I've been able to verify that the methods below are valid; however, it appears that Proctorio is switching to a desktop application. I cannot tell if this is a response to try and prevent cheating OR a response to the deprication of PNaCl.
+
+I still stand by my recomendation that universities should switch to Respondus Lockdown Browser w Respondus Monitor.
 
 If there are any questions or concerns, feel free to make an issue in this repo
 
@@ -56,7 +58,7 @@ An alternative to this, is to create a test where cheating is unfavourable.
 We inject into chrome any hook any calls for the functions we want to implement.
 
 ## Camera + Window
-I am not going to discuss or open source any of this technology. I have a theory of how this can be bypassed and how a bypass can be detected.
+You can bypass the camera checks by using a high quality cell phone camera. I used a iPhone 11 Pro Max and created an app that used the true depth camera, and streamed it to the system to setup a virtural camera. A deepfake of your own face can then be used to change your glance as well as adding noise to make it harder to detect (and look like a crappy webcam).
 
 ## Processes
 We hide the injector and any firefox browser processes from the chrome browser while injected. We also implement a macro for copy and pasting which will play back typing clips (from earlier) and 
